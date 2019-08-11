@@ -48,3 +48,5 @@ Based on course https://www.udemy.com/the-data-science-course-complete-data-scie
 - Weight of bias is extremely sensitive (depending where we start), we might reach the result or not within a given number of iterations.  However, didn't see a difference for number iterations based on weights chosen for the xs and zs.
 - Bias is resolved last, there are cases when weights for xs and zs are OK, but bias is not yet.
 - Weights (of bias) effect the number of iteration, with initial weight closer to the actual weight taking less iterations
+- Many loops or observations makes the descend much slower
+- 
