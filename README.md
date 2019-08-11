@@ -49,4 +49,3 @@ Based on course https://www.udemy.com/the-data-science-course-complete-data-scie
 - Bias is resolved last, there are cases when weights for xs and zs are OK, but bias is not yet.
 - Weights (of bias) effect the number of iteration, with initial weight closer to the actual weight taking less iterations
 - Many loops or observations makes the descend much slower
-- 
