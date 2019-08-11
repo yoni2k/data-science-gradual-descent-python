@@ -49,3 +49,6 @@ Based on course https://www.udemy.com/the-data-science-course-complete-data-scie
 - Bias is resolved last, there are cases when weights for xs and zs are OK, but bias is not yet.
 - Weights (of bias) effect the number of iteration, with initial weight closer to the actual weight taking less iterations
 - Many loops or observations makes the descend much slower
+
+## Warning:
+The internal loop was stopped when loss stopped improving greatly, or started becoming higher (shooting for infinity).  However, it was explained in the lectures, that loss is not linear, it could go up and down.  So it might be OK for the Linear function we were exploring, but not in general.  In general - we need to give enough iterations.
